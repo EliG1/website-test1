@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+    height: 25%
+    
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5%;
+    text-align: center;
+}
+
+h1, h2 {
+  display: inline;
+  background: #fff;
+
+}
+
+
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   div.gallery {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   div.gallery {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   div.gallery {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (max-width : 2560px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   div.gallery {
+      width: 25%;
+      padding-bottom: 25%;
+   }
+}
+
+h1 {
+  font-size: 30px
+}
+h2 {
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<div>
+<center><h1>Eli makes a website or something</h1><br>
+<h2>Have some things for your eyes</h2><center>
+</div>
+<br>
+<hr>
+<br>
+<div class="gallery">
+  <a target="_blank" href="https://www.weedemandreap.com/wp-content/uploads/2014/05/orange-vanilla-ice-cream.png">
+    <img src="https://www.weedemandreap.com/wp-content/uploads/2014/05/orange-vanilla-ice-cream.png" alt="I want to prove my fanciness, so GUILTY PLEASURES? HM?" width="300" height="200">
+  </a>
+  <div class="desc">Treat yourself</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="http://tastykitchen.com/recipes/wp-content/uploads/sites/2/2009/10/Chex-Party-Mix-420x278.png">
+    <img src="http://tastykitchen.com/recipes/wp-content/uploads/sites/2/2009/10/Chex-Party-Mix-420x278.png" alt="Logic multiplied by 10" width="300" height="200">
+  </a>
+  <div class="desc">Dive into a swimming pool of Chex mix. You know, like normal people do in their freetime.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.cleriti.com/hs-fs/hub/160303/file-2361991028-jpg/images/coke-vs-pepsi.jpg">
+    <img src="https://www.cleriti.com/hs-fs/hub/160303/file-2361991028-jpg/images/coke-vs-pepsi.jpg" alt="Get trolled, noob" width="300" height="200">
+  </a>
+  <div class="desc">Little did you know it was really an advertisent for Captain America: Civil War :p</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://i.pinimg.com/736x/75/d5/64/75d564914cccccba01cd7d9e08f8dd78--cartoon-movies-art-posters.jpg">
+    <img src="https://i.pinimg.com/736x/75/d5/64/75d564914cccccba01cd7d9e08f8dd78--cartoon-movies-art-posters.jpg" alt="Greatest animated movie ever" width="300" height="200">
+  </a>
+  <div class="desc">This movie is cool.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://resizing.flixster.com/a2U1lUGlpYOCupFiv8dJMypbkh0=/206x305/v1.bTsxMjU3NjUzNjtqOzE3NTYwOzEyMDA7NDA1MDs2MDAw">
+    <img src="https://resizing.flixster.com/a2U1lUGlpYOCupFiv8dJMypbkh0=/206x305/v1.bTsxMjU3NjUzNjtqOzE3NTYwOzEyMDA7NDA1MDs2MDAw" alt="Eli is a strange child" width="300" height="200">
+  </a>
+  <div class="desc">This is what a failed superhero movie looks like. (I personally enjoyed it...that's just me, I can tell)</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="http://www.johnmundtesquire.com/files/ColorMonkeyHello_op_800x713.jpg">
+    <img src="http://www.johnmundtesquire.com/files/ColorMonkeyHello_op_800x713.jpg" alt="Not a meme" width="300" height="200">
+  </a>
+  <div class="desc">Actually not a meme, probably 'cuz it's too cool m99. (Seriously, if you're not reading this comic book, then I feel legitimately bad for you.)
+  </div>
+</div>
+
+</body>
+</html>
